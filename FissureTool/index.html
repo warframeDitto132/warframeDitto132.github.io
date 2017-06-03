@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fissure Tool</title>
+
+<!-- Style -->
+<style>
+body
+{
+	color: lightgrey;
+	background-color: black;
+	//font-size: 1.2em;
+	font-size: 1.0em;
+	margin: 10px;
+}
+
+caption
+{
+	background-color: grey;
+}
+
+table
+{
+	//table-layout: fixed;
+	//height: 100px;
+}
+
+table, th, td, tr
+{
+	//table-layout: fixed;
+	border-collapse: collapse;
+	
+	//border-width: 10px;
+	//border-style: solid;
+	border: 2px solid grey;
+	padding: 2px;
+}
+
+thead, tbody, tfoot
+{
+	border: 4px solid grey;
+}
+
+table
+{
+	overflow-x: auto;
+}
+
+select
+{
+	min-width: 100px;
+	color: lightgrey;
+	background-color: black;
+}
+
+tbody tr:hover
+{
+	//background-color: yellow;
+	//background-color: grey;
+}
+
+fieldset
+{
+	border-radius: 10px;
+}
+
+pre
+{
+	display: inline;
+}
+
+input[type=number]
+{
+	//size = 4;
+	//width = 20px;
+	color: lightgrey;
+	background-color: black;
+}
+
+dialog
+{
+	border-radius: 10px;
+}
+
+.leftDiv
+{
+	display: inline-block;
+	//background-color: red;
+	//float: left;
+}
+
+.centerDiv
+{
+	display: inline-block;
+	//background-color: green;
+	//margin: auto;
+	padding: 5px;
+	//align-items: center;
+	vertical-align: 100%;
+}
+
+.dualSelectListButton
+{
+	//margin: auto;
+	//vertical-align: 50%;
+	//vertical-align: middle;
+	//vertical-align: top;
+	//align-items: center;
+	//vertical-align: inherit;
+}
+
+.rightDiv
+{
+	display: inline-block;
+	//background-color: blue;
+	//float: right;
+}
+
+.dualSelectListDiv
+{
+}
+
+.DeleteButton
+{
+	color: white;
+	background-color: red;
+	border-radius: 100%;
+}
+
+.AddButton
+{
+	color: white;
+	background-color: green;
+	border-radius: 100%;
+}
+
+body
+{
+	color: lightgrey;
+	background-color: black;
+	//font-size: 1.2em;
+	font-size: 1.0em;
+	margin: 10px;
+}
+
+footer
+{
+	position: fixed;
+	bottom: 0px;
+}
+
+caption
+{
+	background-color: grey;
+}
+
+table
+{
+	//table-layout: fixed;
+	//height: 100px;
+}
+
+table, th, td, tr
+{
+	//table-layout: fixed;
+	border-collapse: collapse;
+	
+	//border-width: 10px;
+	//border-style: solid;
+	border: 2px solid grey;
+	padding: 2px;
+}
+
+thead, tbody, tfoot
+{
+	border: 4px solid grey;
+}
+
+table
+{
+	overflow-x: auto;
+}
+
+select
+{
+	color: lightgrey;
+	background-color: black;
+}
+
+tbody tr:hover
+{
+	//background-color: yellow;
+	//background-color: grey;
+}
+
+fieldset
+{
+	border-radius: 10px;
+}
+
+pre
+{
+	display: inline;
+}
+
+.Bold
+{
+	font-weight: bold;
+}
+
+.Center
+{
+	text-align: center;
+}
+
+.LegendElement
+{
+	display: block;
+}
+
+.Common
+{
+	color: hsl(15, 100%, 50%);
+}
+
+.Uncommon
+{
+	color: hsl(45, 100%, 50%);
+}
+
+.Rare
+{
+	color: hsl(100, 100%, 50%);
+}
+
+.Vaulted
+{
+	color: yellow;
+}
+
+.fissureRewardsTable
+{
+	display: inline-block;
+}
+
+#RarityColorLegend
+{
+	position: fixed;
+	//float: right;
+	right: 10px;
+	
+	//opacity: 0.5;
+}
+
+input[type=number]
+{
+	//size = 4;
+	//width = 20px;
+	color: lightgrey;
+	background-color: black;
+}
+
+</style>
+
+<body onload="onPageLoad()">
+
+<a href="https://goo.gl/forms/1QmCQ3VuhjbJ8QJu2" target="_blank">Give feedback</a>
+
+<script>
+
+function onPageLoad()
+{
+	var myDiv = document.getElementById("myDiv");
+	myDiv.innerHTML = "myDiv";
+}
+
+</script>
+<div id="colorLegends"></div>
+<div id="filterSection"></div>
+<div id="eraSection">Era: </div>
+<div id="typeSection"></div>
+<div id="fissureTables"></div>
+
+<div id="myDiv">Empty</div>
+
+</body>
+<footer>
+V1.12
+Updated as of 17 September 2016.
+Created by
+<a href="https://forums.warframe.com/profile/1752888-ditto132/" target="_blank">Ditto132</a>
+</footer>
+</html>
